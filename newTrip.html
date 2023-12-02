@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuevo viaje</title>
+
+    <link rel="stylesheet" type="text/css" href="css/general.css" /> 
+    <link rel="stylesheet" type="text/css" href="css/newTrip.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Borel&family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap"
+      rel="stylesheet"
+    />
+
+</head>
+<body>
+    <div id="contenedorGeneral">
+        <h1 class="titulo">Nuevo Viaje</h1>
+        <div class="contenedorForm">
+            <form class="form">
+                <label for="monto" class="label">Monto:</label>
+                <div class="box1">
+                    <span class="pesoSigno"> $ </span>
+                    <input type="number" id="monto" class="montoInput">
+                </div>
+                
+
+                <label for="fecha" class="label">Fecha:</label>
+                <input type="date" class="box1">
+
+                <label for="observaciones" class="label">Observaciones (opcional):</label>
+                <input type="text" class="box">
+
+            </form>
+            <div class="botonesForm">
+                <button class="botonCancelar" >
+                    <p class ="cancelar"> Cancelar</p>
+                </button>
+                <button class="botonGuardar" >
+                    <p class ="guardar">+ Guardar</p>
+                </button>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

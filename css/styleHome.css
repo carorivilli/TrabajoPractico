@@ -186,4 +186,14 @@
   align-self: stretch;
   border-radius: 8px;
   background: #874CFC;
+  width: 100%;
+}
+
+.botonNuevoViaje:hover{
+  background-color: #6633cc;
+}
+
+a {
+  display: block; 
+  text-decoration: none; 
 }
