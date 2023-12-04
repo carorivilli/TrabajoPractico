@@ -17,23 +17,19 @@
     <div id="contenedorGeneral">
         <h1 class="titulo">Editar Viaje</h1>
         <div class="contenedorForm">
-            <form class="form">
-                <label for="monto" class="label">Monto:</label>
-                <div class="box1">
-                    <span class="pesoSigno"> $ </span>
-                    <input type="number" id="monto" class="montoInput">
-                </div>
+            <div class="label">Monto:</div>
+            <input type="text" id="monto" class="box1" placeholder="$">
+            <label class="label">Fecha:</label>
+            <input type="date" class="box1">
+            <div class="observaciones">
+                <p class="label">Observaciones:</p>
+                <p class="opcional">(opcional)</p>
+            </div>
+            <input type="text" class="labelObservaciones">
                 
-
-                <label for="fecha" class="label">Fecha:</label>
-                <input type="date" class="box1">
-
-                <label for="observaciones" class="label">Observaciones (opcional):</label>
-                <input type="text" class="box">
-
-            </form>
             <div class="botonesForm">
-                <button class="botonCancelar" >
+
+                <button class="botonCancelar">
                     <p class ="cancelar"> Cancelar</p>
                 </button>
                 <button class="botonActualizar" >

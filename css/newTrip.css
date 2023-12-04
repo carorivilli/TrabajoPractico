@@ -1,32 +1,32 @@
 #contenedorGeneral{
-    background: #F7F8FA;
-    display: flex;
-    width: 500px;
-    height: 568px;
-    padding: 36px 24px 24px 24px;
-    flex-direction: column;
-    align-items: center; 
-    justify-content: center;
-    margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: full;
+  max-width: 25%;
+  margin: 0 auto;
+  padding: 36px 24px 24px 24px;
+  gap: 8px;  
   }
 
 .titulo {
-    color: #3266fb;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin-bottom: 16px;
+  color: #1F1F22;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
   }
 
   .label{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    align-self: stretch;
     color: #404040;
-    font-size: 16px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    display: flex;
-    flex-direction: column;
+
   }
 
   .box{
@@ -45,15 +45,13 @@
 
   .box1 {
     display: flex;
-    width: 100%;
     padding: 8px 12px;
     align-items: center;
     gap: 10px;
-    align-self: stretch;
+    align-self: stretch; 
     border-radius: 8px;
     border: 1px solid #C2C2C2;
-    background: #FFF;
-    margin-bottom: 16px;
+    background: #FFF; 
   }
 
 
@@ -64,10 +62,9 @@
   .contenedorForm{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     gap: 8px;
-    align-self: stretch;
-    margin-top: 16px;
+    align-self: stretch; 
   }
 
   .form{
@@ -122,17 +119,33 @@
 
   .botonesForm{
     display: flex;
-    margin-top: 16px;
-    width: 100%;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
   }
 
   .botonCancelar,
-.botonGuardar {
-  margin-right: 10px; /* Agrega un margen derecho entre los botones */
+  .botonGuardar {
+  margin-right: 10px; 
   padding: 8px 0px;
   justify-content: center;
   align-items: center;
   gap: 10px;
   flex: 1 0 0;
   border-radius: 8px;
+}
+.observaciones{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+  align-self: stretch; 
+}
+.opcional{
+  color: #5BB0FF;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal; 
 }
