@@ -6,6 +6,7 @@
   margin: 0 auto;
   padding: 36px 24px 24px 24px;
   gap: 8px;
+  background: linear-gradient(180deg, #329BFB 0%, #FFF 23.96%);
 }
 
 .montosResumen {
