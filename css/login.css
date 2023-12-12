@@ -1,0 +1,119 @@
+#contenedorLogin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: full;
+  max-width: 50%;
+  margin: 0 auto;
+  padding: 36px 24px 24px 24px;
+  gap: 8px;
+  background: linear-gradient(
+    180deg,
+    #fcfdfe 77.9%,
+    #c1a4ff 90.82%,
+    #874cfc 100%
+  );
+}
+
+.tituloLogin {
+  color: #290276;
+  font-family: Paytone One;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.imagen {
+  padding-bottom: 15px;
+  width: 128.5px;
+  height: 128.5px;
+  flex-shrink: 0;
+}
+.usuario label {
+  color: #1f1f22;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.usuario input {
+  color: #c2c2c2;
+  font-size: 22px;
+  font-style: normal;
+  line-height: normal;
+}
+
+.contraseña label {
+  color: #1f1f22;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.contraseña input {
+  color: #c2c2c2;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.boxUsuario {
+  display: flex;
+  padding: 8px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 8px;
+  border: 1px solid #c2c2c2;
+  background: #fff;
+}
+
+.boxPasw {
+  display: flex;
+  padding: 8px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 8px;
+  border: 1px solid #c2c2c2;
+  background: #fff;
+}
+
+.botonInicioSesion {
+  text-decoration: none;
+  padding: 8px 39px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 8px;
+  background: #874cfc;
+}
+.inicioSesion {
+  color: #fff;
+  font-family: Nunito Sans;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.recordar {
+  margin: 15px 0 20px 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.recordar:hover {
+  text-decoration: underline;
+}
+.registrarse {
+  padding: 10px;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: underline;
+}
