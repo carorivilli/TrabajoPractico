@@ -1,13 +1,23 @@
 #contenedor {
   display: flex;
+  min-width: 320px;
+  max-width: 500px;
+  width: 100%;
+  height: fit-content;
+  padding: 12px 12px 24px 12px;
   flex-direction: column;
-  width: full;
-  max-width: 50%;
-  margin: 0 auto;
-  padding: 36px 24px 24px 24px;
+  justify-content: center;
   gap: 8px;
+  
+}
+
+body{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
   background: linear-gradient(180deg, #329BFB 0%, #FFF 23.96%);
 }
+
 
 .montosResumen {
   display: flex;
@@ -33,16 +43,21 @@
   color: #f7f8fa;
   font-size: 22px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   line-height: normal;
 }
 
 .montoTotal {
   color: #f7f8fa;
-  font-size: 40px;
+  font-size: 32px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+
+.montoTotal sup {
+  font-size: 16px;
+  margin-left: 4px;
 }
 
 .comision {
@@ -57,7 +72,7 @@
 }
 .verTodos {
   color: #3266fb;
-  font-size: 20px;
+  font-size: 12px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -73,7 +88,7 @@
 
 .titulo {
   color: #1f1f22;
-  font-size: 30px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -93,7 +108,7 @@
 
 .fecha {
   color: #404040;
-  font-size: 20px;
+  font-size: 10px;
 
   font-weight: 400;
 }
@@ -105,7 +120,7 @@
   overflow: hidden;
   color: #404040;
   text-overflow: ellipsis;
-  font-size: 30px;
+  font-size: 16px;
   font-weight: 700;
   margin: 0;
 }
@@ -123,15 +138,15 @@
 }
 
 .iconoVerViaje {
-  font-size: 2.6em !important;
+  font-size: 1em !important;
 }
 
 .iconoEditarViaje {
   color: white;
 }
 .botonAccionViaje {
-  width: 48px;
-  height: 48px;
+  width: 19.99px;
+  height: 20px;
   border-radius: 30%;
 }
 

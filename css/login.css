@@ -1,19 +1,28 @@
 #contenedorLogin {
   display: flex;
+  min-width: 320px;
+  max-width: 500px;
+  width: 100%;
+  height: fit-content;
+  padding: 12px 12px 24px 12px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: full;
-  max-width: 50%;
-  margin: 0 auto;
-  padding: 36px 24px 24px 24px;
-  gap: 8px;
+  gap: 10px;
+  
+}
+
+body{
   background: linear-gradient(
     180deg,
     #fcfdfe 77.9%,
     #c1a4ff 90.82%,
     #874cfc 100%
   );
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+
 }
 
 .tituloLogin {
@@ -32,21 +41,21 @@
 }
 .usuario label {
   color: #1f1f22;
-  font-size: 22px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
 }
 .usuario input {
   color: #c2c2c2;
-  font-size: 22px;
+  font-size: 16px;
   font-style: normal;
   line-height: normal;
 }
 
 .contraseña label {
   color: #1f1f22;
-  font-size: 22px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
@@ -54,7 +63,7 @@
 
 .contraseña input {
   color: #c2c2c2;
-  font-size: 22px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -96,7 +105,7 @@
 .inicioSesion {
   color: #fff;
   font-family: Nunito Sans;
-  font-size: 22px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -104,14 +113,14 @@
 .recordar {
   margin: 15px 0 20px 5px;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 16px;
 }
 .recordar:hover {
   text-decoration: underline;
 }
 .registrarse {
   padding: 10px;
-  font-size: 22px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
